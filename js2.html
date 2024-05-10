@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>activity</title>
+</head>
+
+<body>
+    <button onclick="update()">Add hello</button>
+    <div id="result"></div>
+    <script>
+        var div=document.getElementById("result")
+        function update() 
+        {
+        
+            var listitem = document.createElement("h1")
+            listitem.textContent = "Hello"
+            div.append=(listitem)
+        }
+    </script>
+</body>
+
+</html>
